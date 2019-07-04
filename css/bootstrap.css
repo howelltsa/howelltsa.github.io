@@ -477,8 +477,8 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  max-width: 60%;
+  height: 60%;
 }
 
 .img-thumbnail {
@@ -548,6 +548,7 @@ pre code {
 .container {
   width: 100%;
   padding-right: 15px;
+  padding-left: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -2392,6 +2393,15 @@ textarea.form-control {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-gradient {
+	background: rgb(243,50,35);
+	background: -moz-linear-gradient(135deg, rgba(243,50,35,1) 0%, rgba(6,49,177,1) 100%);
+	background: -webkit-linear-gradient(135deg, rgba(243,50,35,1) 0%, rgba(6,49,177,1) 100%);
+	background: linear-gradient(135deg, rgba(243,50,35,1) 0%, rgba(6,49,177,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f33223",endColorstr="#0631b1",GradientType=1); 
+	color: white;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -10000,6 +10010,8 @@ a.text-dark:hover, a.text-dark:focus {
   }
   body {
     min-width: 992px !important;
+	font-family: "Muli", sans-serif;
+	font-weight: 500;
   }
   .container {
     min-width: 992px !important;
