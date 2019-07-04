@@ -477,8 +477,13 @@ mark,
 }
 
 .img-fluid {
-  max-width: 60%;
-  height: 60%;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  max-width: 30%;
+  height: auto
 }
 
 .img-thumbnail {
@@ -5098,6 +5103,16 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+}
+
+.jumbotron-gradient {
+	
+ background: rgb(3,5,144);
+ background: -moz-linear-gradient(43deg, rgba(3,5,144,1) 0%, rgba(33,53,196,1) 52%, rgba(48,85,196,1) 100%);
+ background: -webkit-linear-gradient(43deg, rgba(3,5,144,1) 0%, rgba(33,53,196,1) 52%, rgba(48,85,196,1) 100%);
+ background: linear-gradient(43deg, rgba(3,5,144,1) 0%, rgba(33,53,196,1) 52%, rgba(48,85,196,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#030590",endColorstr="#3055c4",GradientType=1); 
+
 }
 
 @media (min-width: 576px) {
