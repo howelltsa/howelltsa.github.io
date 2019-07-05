@@ -5106,13 +5106,23 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron-gradient {
-	
- background: rgb(3,5,144);
- background: -moz-linear-gradient(43deg, rgba(3,5,144,1) 0%, rgba(33,53,196,1) 52%, rgba(48,85,196,1) 100%);
- background: -webkit-linear-gradient(43deg, rgba(3,5,144,1) 0%, rgba(33,53,196,1) 52%, rgba(48,85,196,1) 100%);
- background: linear-gradient(43deg, rgba(3,5,144,1) 0%, rgba(33,53,196,1) 52%, rgba(48,85,196,1) 100%);
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#030590",endColorstr="#3055c4",GradientType=1); 
+background: rgb(0,91,158);
+background: -moz-linear-gradient(47deg, rgba(0,91,158,1) 0%, rgba(239,49,37,1) 100%);
+background: -webkit-linear-gradient(47deg, rgba(0,91,158,1) 0%, rgba(239,49,37,1) 100%);
+background: linear-gradient(47deg, rgba(0,91,158,1) 0%, rgba(239,49,37,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#005b9e",endColorstr="#ef3125",GradientType=1);
+}
 
+.color-gradient {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 5px;
+  background: rgb(0,91,158);
+  background: -moz-linear-gradient(47deg, rgba(0,91,158,1) 0%, rgba(239,49,37,1) 100%);
+  background: -webkit-linear-gradient(47deg, rgba(0,91,158,1) 0%, rgba(239,49,37,1) 100%);
+  background: linear-gradient(47deg, rgba(0,91,158,1) 0%, rgba(239,49,37,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#005b9e",endColorstr="#ef3125",GradientType=1);
 }
 
 @media (min-width: 576px) {
