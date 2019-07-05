@@ -482,9 +482,10 @@ mark,
 }
 
 .logo {
-  max-width: 55%;
+  max-width: 100%;
   height: auto
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
