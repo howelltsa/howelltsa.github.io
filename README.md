@@ -3,7 +3,7 @@
 
 This theme was made for the 2020 New Jersey Technology Student Assosiation State Conference, which is held at TCNJ every year.
 
-I am a staunch believer in open source code, so if you feel the need to use this code for your own project, feel free! I only ask that you do attempt to use this for your TSA project. Before building last years site, I didn't even know what Bootstrap was, and I hope to use and expand upon the knowledge I have gained from last year to build the best site I can.
+I am a staunch believer in open source code, so if you feel the need to use this code for your own project, feel free! I only ask that you do NOT attempt to use this for your TSA project. Before building last years site, I didn't even know what Bootstrap was, and I hope to use and expand upon the knowledge I have gained from last year to build the best site I can.
 
 # License
 
