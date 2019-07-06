@@ -36,7 +36,14 @@
 <nav class="navbar navbar-expand-lg  navbar-light bg-light justify-content-right sticky-top">
   <a class="navbar-brand"><img src="img/logo3.PNG" class="img-fluid"> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <div id="nav-site-hamburger">
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+</div>
   </button>
 	<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 		<ul class="nav navbar-nav">
@@ -81,5 +88,14 @@
   <script src="js/bootstrap.bundle.min.js"></script>
 	<!--End JavaScript Libraries -->
    
+    <!-- make hamburger work -->
+<script type="text/javascript">
+   $(document).ready(function(){
+     $('#nav-site-hamburger').click(function(){
+     $(this).toggleClass('open');
+   });
+   });
+</script>
+    
   </body>
 </html>
